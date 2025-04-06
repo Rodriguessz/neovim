@@ -3,4 +3,6 @@
   
   --Loading Lazy configuration
   require("config.lazy")
-
+  
+  --Rest of configurations
+  
