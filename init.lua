@@ -1,4 +1,4 @@
-  --Loading NeoVim Options
+    --Loading NeoVim Options
   require("config.vim-options")
   
   --Loading Lazy configuration
