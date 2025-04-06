@@ -1,8 +1,5 @@
-    --Loading NeoVim Options
+--Loading NeoVim Options
   require("config.vim-options")
-  
-  --Loading Lazy configuration
+--Loading Lazy configuration
   require("config.lazy")
-  
-  --Rest of configurations
-  
+--Rest of configurations
