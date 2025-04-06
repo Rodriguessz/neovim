@@ -1,4 +1,4 @@
-return {
+  return {
 
   {
   "nvim-neo-tree/neo-tree.nvim",
@@ -11,16 +11,18 @@ return {
   config = function()
       require("neo-tree").setup({
         close_if_last_window = true,
-        filesystem = {
-          --Window components configuration
+          filesystem = {
+            --Window components configuration
           window = { position = "right"},
 
           --Neotree configuration files
           filtered_items = {
         
-              hide
+              
             
-          }
+          },
+
+
         }
 
       })
