@@ -29,6 +29,6 @@ vim.o.updatetime = 300
 
 --Configuration for buffer navigation
 vim.keymap.set('n', '<leader>.', '<C-w>l', {desc = "Go to right buffer"})
-vim.keymap.set('n', '<leader>,', '<C-w>h', {desc = "Go to right buffer"})
+vim.keymap.set('n', '<leader>,', '<C-w>h', {desc = "Go to left buffer"})
 
 
