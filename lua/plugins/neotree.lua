@@ -28,7 +28,7 @@
       })
       vim.keymap.set('n', '<D-b>', ':Neotree toggle filesystem right<CR>')
       vim.keymap.set('n', '<C-g>', ':Neotree float git_status git_base=main<CR>')
-      vim.keymap.set("n", "<leader>n", function()
+      vim.keymap.set("n", "nn", function()
         vim.cmd("Neotree focus")
       end, { desc = "Focus on Neo-tree" })
   end

@@ -2,4 +2,5 @@
   require("config.vim-options")
 --Loading Lazy configuration
   require("config.lazy")
---Rest of configurations
+--Keymaps for Neovim
+  require("config.keymaps")

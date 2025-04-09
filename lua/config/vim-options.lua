@@ -1,10 +1,3 @@
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
-vim.g.mapleader= " "
-
-
 --Enable the line count
 vim.opt.number = true
 
@@ -26,9 +19,15 @@ vim.cmd([[
 ]])
 vim.o.updatetime = 300
 
+--Neovim Window configurations
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.g.mapleader= " "
 
---Configuration for buffer navigation
-vim.keymap.set('n', '<leader>.', '<C-w>l', {desc = "Go to right buffer"})
-vim.keymap.set('n', '<leader>,', '<C-w>h', {desc = "Go to left buffer"})
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 
