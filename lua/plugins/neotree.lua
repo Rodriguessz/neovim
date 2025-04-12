@@ -16,14 +16,13 @@
           window = { position = "right"},
 
           --Neotree configuration files
-          filtered_items = {
-        
-              
-            
-          },
+          filtered_items = {},
+        },
 
-
-        }
+          source_selector = {
+            winbar = true,
+            statuline = true,
+          }
 
       })
       vim.keymap.set('n', '<D-b>', ':Neotree toggle filesystem right<CR>')

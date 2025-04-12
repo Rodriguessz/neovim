@@ -26,5 +26,11 @@ Map("n", "<D-l>", ":vertical resize +2<CR>")
 
 --Saving file
 Map("n", "<D-s>", ":w<CR>")
+Map("n", "<leader>wq", ":wqa<CR>")
 
+
+--Buffers
+Map("n", "<C-q>",":bdelete! %<CR>") --Close the current buffer
+Map("n", "<leader>1", ":bprevious<CR>") -- Go to previous buffer
+Map("n", "<leader>2", ":bnext<CR>") -- Go no next buffer
 
